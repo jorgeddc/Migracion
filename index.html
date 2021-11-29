@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="main.css">
+    <title>MIGRACION MASTERII</title>
+</head>
+
+<body>
+<div class="message">
+    <div class="contenido-mensaje"> <p>Estas seguro que quieres borrar?</p></div>
+   <div class="contenido-boton"><button class='boton-message aceptar'>aceptar</button><button class='boton-message cancelar'>cancelar</button></div></div>
+    
+    <h1></h1>
+    <div class="info-farmacia">
+        <div class="container-datelf">
+            <input type="date" class="infodt date" autofocus>
+            <input type="text" class="infodt telefono" placeholder="Telefono " autofocus>
+       
+        </div>   
+        <div class="container-info">
+        <input type="text" name="nombreFarma" id="nombreFarma" class='info nombre' placeholder='Introduce nombre de la farmacia' autofocus> 
+        <input type="text" name="nombreFarma" id="nombreFarma" class='info ip' placeholder='Introduce ip del colegio' autofocus> </div>
+        <p >Datos de interes:</p>
+        
+        <textarea name="datos-interes" id="datosInteres" cols="30" rows="10"  class='textarea' autofocus></textarea>
+    </div>
+    <input type="text" class="puestos" placeholder="¿Cuantos puestos tiene la farmacia?">
+    <div class="container-button">
+    <button class='init boton'>iniciar</button>
+ 
+    <button class='erase boton'>borrar</button>
+    <button class='print boton'>print</button></div>
+
+
+
+
+    <div class="servidor">
+        <p class="titulo"> Puesto 0</p>
+
+        <div class="container-anydesk">
+            <p>Introduce direccion Anydesk </p>
+            <input type="text" name="" id="Any" class=" any any-desk"></div>
+        <br>
+
+
+        <input type="checkbox" name="" id="item1" class="check-s item1">
+        <label for="usuario-impresoras">Instalacion de Servidor</label><br>
+
+        <input type="checkbox" name="" id="item2" class="check-s item2">
+        <label for="usuario-impresoras">Usuario impresoras</label><br>
+
+        <input type="checkbox" name="" id="item3" class="check-s item3">
+        <label for="usuario-impresoras">Accesos Farmanager</label><br>
+        <input type="checkbox" name="" id="item4" class="check-s item4">
+        <label for="usuario-impresoras">Lib.</label><br><input type="checkbox" name="" id="item5" class="check-s item5">
+        <label for="usuario-impresoras">Adobe DC.</label><br>
+        <input type="checkbox" name="" id="item6" class="check-s item6">
+        <label for="usuario-impresoras">Libre Office.</label><br>
+
+        <input type="checkbox" name="" id="item7" class="check-s item7">
+        <label for="usuario-impresoras">Nod 32.</label><br>
+
+        <input type="checkbox" name="" id="item8" class="check-s item8">
+        <label for="usuario-impresoras">Farmanager Client.</label><br>
+
+        <input type="checkbox" name="" id="item9" class="check-s item9">
+        <label for="usuario-impresoras">PDF.</label><br>
+
+        <input type="checkbox" name="" id="item10" class="check-s item10">
+        <label for="usuario-impresoras">Ereceta.</label><br>
+
+        <input type="checkbox" name="" id="item11" class="check-s item11">
+        <label for="usuario-impresoras">Java.</label><br>
+
+        <input type="checkbox" name="" id="item12" class="check-s item12">
+        <label for="usuario-impresoras">Api 10.5.</label><br>
+
+        <input type="checkbox" name="" id="item13" class="check-s item13">
+        <label for="usuario-impresoras">Setup Online.</label><br>
+
+        <input type="checkbox" name="" id="item14" class="check-s item14">
+        <label for="usuario-impresoras">SMS.</label><br>
+
+        <input type="checkbox" name="" id="item15" class="check-s item15">
+        <label for="usuario-impresoras">Unificar cajas.</label><br>
+
+        <input type="checkbox" name="" id="item16" class="check-s item16">
+        <label for="usuario-impresoras">Master Backup.</label><br>
+      
+        <input type="checkbox" name="" id="item17" class="check-s item17">
+        <label for="usuario-impresoras">Gpedit.</label><br>
+      
+        <input type="checkbox" name="" id="item18" class="check-s item18">
+        <label for="usuario-impresoras">Compartida.</label><br>
+
+        <input type="checkbox" name="" id="item19" class="check-s item19">
+        <label for="usuario-impresoras">Acceso directo Sifare.</label><br>
+
+        <input type="checkbox" name="" id="item20" class="check-s item20">
+        <label for="funcionamiento-RE" class='pregunta '>¿Has comprobado que funciona receta electronica?.</label><br>
+
+        <input type="checkbox" name="" id="item21" class="check-s item21">
+        <label for="funcionamiento-sevem" class='pregunta '>¿Has comprobado que funciona SEVEM?.</label><br>
+        <input type="checkbox" name="" id="item22" class="check-s item22">
+        <label for="funcionamiento-impresoras" class='pregunta '>¿Has comprobado que funcionan todas las impresoras?.</label><br>
+
+        <br><br>
+    </div>
+    <div class=migracion>
+    </div>
+
+    <script>
+        var btn=document.querySelector(".print")
+        btn.onclick = () =>{
+          
+         window.print();
+        }
+    </script>  
+
+
+</body>
+<script src="javaScript.js "></script>
+
+</html>
